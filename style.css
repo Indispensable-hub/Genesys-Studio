@@ -1,0 +1,189 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav a::after{
+    content: "\25bc";
+    margin-left: 8px;
+    font-size: 10px;
+}
+
+nav img{
+    height: 30px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: baseline;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li{
+    margin: 0 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+.Demo{
+    margin-left: auto;
+    color: white;
+    padding: 16px;
+    background-color: forestgreen;
+    border: none;
+    border-radius: 10px;
+}
+
+.main{
+    margin-top: 30px;
+    word-spacing: 3px;
+    text-align: center;
+}
+
+.main .Demo{
+    margin-top: 20px;
+    word-spacing: 2px;
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.main .Login{
+    word-spacing: 2px;
+    padding: 12px;
+    border-color: forestgreen;
+    border-radius: 10px;
+}
+
+.Smain{
+    padding: 0px;
+    margin-top: 10px;
+    word-spacing: 3px;
+    text-align: center;   
+}
+
+.MainIMG{
+    display: flex;
+    justify-content: center;
+}
+
+.MainIMG img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.Smain p{
+    margin-top: 15px;
+    word-spacing: 3px; 
+}
+
+.sponsors {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 10px;
+    gap: 20px;
+    margin: 10px;
+    
+}
+
+.sponsor{
+    display: grid;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    padding: 1px;
+    border: 3px;
+    background-color: #f3f3f3;
+}
+
+.why{
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+
+span{
+    padding: 20px;
+}
+
+.flex{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    margin: 1px;
+}
+
+.container {
+    display: flex;
+  }
+  
+  .box1 {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+.Val{
+    padding: 20px;
+}
+
+h2,h4{
+    padding-bottom: 5px;
+}
+
+.lastSection{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.text-div{
+     width: 40%;
+}
+
+.img-div{
+
+    width: 50%;
+}
+
+.img-div img{
+    height: 90%;
+}
+
+
+.box2 {
+    flex: 1;
+    margin-left: 20px;
+    /*padding: 10px; */
+    padding-top: 30px;
+}
+
+.last-Demo{
+    color: white;
+    padding: 16px;
+    background-color: forestgreen;
+    border: none;
+    border-radius: 10px;
+    justify-content: center;
+}
